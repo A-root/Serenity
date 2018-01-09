@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Valid login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e1acf41-a6f0-4584-87fe-aeed0a31ef68</testCaseGuid>
+   <variable>
+      <defaultValue>'https://system.misnik.by:8484/index.php'</defaultValue>
+      <description></description>
+      <id>74199175-934f-4835-9ec7-f5fd202030d2</id>
+      <masked>false</masked>
+      <name>StartURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'TaushevIS'</defaultValue>
+      <description></description>
+      <id>734bb938-c867-4259-aaaf-c707605128b5</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'tMYPHSIa'</defaultValue>
+      <description></description>
+      <id>a19c9d6b-3227-476e-810d-2419aeb22404</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>deleteButton</name>
+   <tag></tag>
+   <elementGuidId>7a2d4291-d626-47f7-9c6e-a8f03041cddd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default btn-sm m-t-btn-remove-obj</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Удалить</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m-t-658409&quot;)/div[@class=&quot;grid-stack-item-content portlet box light ui-2c-main-cloth&quot;]/div[2]/div[@class=&quot;m-t-left-side-cloth&quot;]/div[@class=&quot;portlet-title light ui-co-1-title&quot;]/div[@class=&quot;ui-co-1-buttons&quot;]/div[@id=&quot;ui-container-tab&quot;]/a[@class=&quot;btn btn-default btn-sm m-t-btn-remove-obj&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
