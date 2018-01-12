@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_ (1)</name>
+   <name>addThermalprocessingTextarea</name>
    <tag></tag>
-   <elementGuidId>2fe64b23-1d5f-44ef-83fb-4f868476627e</elementGuidId>
+   <elementGuidId>e4d0b705-5c4f-40ce-a33f-da6d5a9165f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[count(. | //*[@class = 'CreateSchem btn btn-default btn-outline']) = count(//*[@class = 'CreateSchem btn btn-default btn-outline'])][count(. | //*[text() = 'Построить схему']) = count(//*[text() = 'Построить схему'])]</value>
+         <value>//textarea[count(. | //*[@class = 'tS6468 ']) = count(//*[@class = 'tS6468 '])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +17,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>CreateSchem btn btn-default btn-outline</value>
+      <value>tS6468 </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>javascript:;</value>
+      <value>10</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>cols</name>
       <type>Main</type>
-      <value>Построить схему</value>
+      <value>45</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;m-t-761299&quot;)/div[@class=&quot;grid-stack-item-content portlet box light ui-2c-main-cloth&quot;]/div[2]/div[@class=&quot;m-t-left-side-cloth&quot;]/div[@class=&quot;portlet-title light ui-co-1-title&quot;]/div[@class=&quot;ui-co-1-buttons&quot;]/div[@class=&quot;draw-struc-menu&quot;]/div[4]/button[@class=&quot;CreateSchem btn btn-default btn-outline&quot;]</value>
+      <value>id(&quot;popover808118&quot;)/div[@class=&quot;popover-content&quot;]/div[@class=&quot;popover-array&quot;]/textarea[@class=&quot;tS6468&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

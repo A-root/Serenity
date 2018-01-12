@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_draw-struc-menu</name>
+   <name>addElementButton</name>
    <tag></tag>
-   <elementGuidId>c2f42a37-ef9c-45c7-a808-5d0a87df63b1</elementGuidId>
+   <elementGuidId>893535a6-178d-4b71-8308-069219116841</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'form-control'][count(. | //*[@id = 'levelstruc']) = count(//*[@id = 'levelstruc'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]</value>
+         <value>//button[count(. | //*[@class = 'm-m-btn-success btn btn-success btn-sm']) = count(//*[@class = 'm-m-btn-success btn btn-success btn-sm'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>m-m-btn-success btn btn-success btn-sm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>levelstruc</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m-m-c-68474&quot;)/div[@class=&quot;jsPanel-ftr-f&quot;]/button[@class=&quot;m-m-btn-success btn btn-success btn-sm&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_levelstruc</name>
+   <name>lengthElement</name>
    <tag></tag>
-   <elementGuidId>5a6a6937-a77a-4870-9f1c-ee6223c9b578</elementGuidId>
+   <elementGuidId>429e863b-d97c-4906-a8d5-37d4ba6dc470</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,52 +14,38 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>step</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>6362</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>form-control numeri   </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>levelstruc</value>
+      <value>Введите число</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;levelstruc&quot;)</value>
+      <value>id(&quot;m-m-c-68474&quot;)/div[@class=&quot;jsPanel-content&quot;]/form[@id=&quot;SubmitForm&quot;]/div[@class=&quot;form-inline ui-modal-grid-1 split split-horizontal&quot;]/div[@class=&quot;m-m_el_co_cloth&quot;]/div[@class=&quot;m-m-el-cloth-param&quot;]/div[@class=&quot;form-group input-large&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control numeri&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

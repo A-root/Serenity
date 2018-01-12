@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateVessel" time="261" tests="1" failures="1" errors="0">
+   <testsuite name="CreateVessel" tests="1" failures="1" errors="0" time="261" timestamp="2018-01-12 16:39:42" hostname="GDC - TaushevIS" id="Test Suites/CreateVessel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_163939"/>
+         <property name="logFiles" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_163939\\execution0.log"/>
+         <property name="attachments" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_163939\\1515764642446.png"/>
+         <property name="hostName" value="GDC - TaushevIS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.100.10"/>
+         <property name="sessionId" value="b43bd447d46bfb359fd4f2ddc5f1400f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Work/Vessel/1. Create New Vessel" classname="Test Cases/Work/Vessel/1. Create New Vessel" status="PASSED">
+         <system-out><![CDATA[2018-01-12 16:39:42 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/1. Create New Vessel: Test Cases/Work/Vessel/1. Create New Vessel
+
+2018-01-12 16:39:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 16:39:43 - [TEST_CASE][PASSED] - Test Cases/Work/Valid login: Test Cases/Work/Valid login
+
+2018-01-12 16:39:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 16:39:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 16:39:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Вход' is present on page 
+
+2018-01-12 16:39:51 - [MESSAGE][PASSED] - Text 'Вход' is present on page 
+
+2018-01-12 16:39:51 - [TEST_STEP][PASSED] - setText: Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 16:39:52 - [MESSAGE][PASSED] - Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 16:39:52 - [TEST_STEP][PASSED] - setText: Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 16:39:52 - [MESSAGE][PASSED] - Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 16:39:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 16:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 16:39:54 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Главная' is present on page 
+
+2018-01-12 16:39:55 - [MESSAGE][PASSED] - Text 'Главная' is present on page 
+
+2018-01-12 16:39:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 16:39:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 16:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 16:39:58 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 16:39:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 16:40:06 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 16:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 16:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 16:40:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 16:40:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 16:40:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 16:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 16:40:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:40:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:40:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 16:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 16:40:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:40:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:40:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 16:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 16:40:16 - [TEST_STEP][PASSED] - setText: Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 16:40:23 - [MESSAGE][PASSED] - Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 16:40:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 16:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 16:40:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:40:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:40:27 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-01-12 16:40:27 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Work/Vessel/4. FillingElementsVessel" classname="Test Cases/Work/Vessel/4. FillingElementsVessel" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id(&quot;popover808118&quot;)/div[@class=&quot;popover-content&quot;]/div[@class=&quot;popover-array&quot;]/textarea[@class=&quot;tS6468&quot;]) = count(id(&quot;popover808118&quot;)/div[@class=&quot;popover-content&quot;]/div[@class=&quot;popover-array&quot;]/textarea[@class=&quot;tS6468&quot;])]' not found)"/>
+         <system-out><![CDATA[2018-01-12 16:40:27 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/4. FillingElementsVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)
+
+2018-01-12 16:40:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/ElementsVesselButton' is clicked on
+
+2018-01-12 16:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/ElementsVesselButton' is clicked on
+
+2018-01-12 16:40:36 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 16:40:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 16:40:39 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 16:40:39 - [TEST_STEP][PASSED] - comment: Добавляем элементы сосуда
+
+2018-01-12 16:40:39 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Work/Vessel/ElementsVessel/addElements' (Root cause: Call Test Case 'Test Cases/Work/Vessel/ElementsVessel/addElements' failed)
+
+2018-01-12 16:40:40 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/ElementsVessel/addElements: Test Cases/Work/Vessel/ElementsVessel/addElements FAILED because (of) Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)
+
+2018-01-12 16:40:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addElement' is clicked on
+
+2018-01-12 16:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addElement' is clicked on
+
+2018-01-12 16:40:40 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 16:40:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 16:40:41 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 16:40:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' is clicked on
+
+2018-01-12 16:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' is clicked on
+
+2018-01-12 16:40:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:40:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:40:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectTypeElement' is clicked on
+
+2018-01-12 16:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectTypeElement' is clicked on
+
+2018-01-12 16:40:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/subtypeElement' is clicked on
+
+2018-01-12 16:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/subtypeElement' is clicked on
+
+2018-01-12 16:40:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:40:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectSubtypeElement' is clicked on
+
+2018-01-12 16:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectSubtypeElement' is clicked on
+
+2018-01-12 16:40:49 - [TEST_STEP][PASSED] - setText: Text 'Вентиль' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/nameElement'
+
+2018-01-12 16:41:01 - [MESSAGE][PASSED] - Text 'Вентиль' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/nameElement'
+
+2018-01-12 16:41:01 - [TEST_STEP][PASSED] - setText: Text 'Вн12.59х' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/codeElement'
+
+2018-01-12 16:41:13 - [MESSAGE][PASSED] - Text 'Вн12.59х' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/codeElement'
+
+2018-01-12 16:41:13 - [TEST_STEP][PASSED] - setText: Text '-' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/passportCodeElement'
+
+2018-01-12 16:41:24 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/passportCodeElement'
+
+2018-01-12 16:41:24 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/countElement'
+
+2018-01-12 16:41:36 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/countElement'
+
+2018-01-12 16:41:36 - [TEST_STEP][PASSED] - setText: Text '20' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/innerDiameterElement'
+
+2018-01-12 16:41:47 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/innerDiameterElement'
+
+2018-01-12 16:41:47 - [TEST_STEP][PASSED] - setText: Text '20' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/innerDiameterMinElement'
+
+2018-01-12 16:41:59 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/innerDiameterMinElement'
+
+2018-01-12 16:41:59 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/externalDiameterElement'
+
+2018-01-12 16:42:11 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/externalDiameterElement'
+
+2018-01-12 16:42:11 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/externalDiameterMinElement'
+
+2018-01-12 16:42:22 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/externalDiameterMinElement'
+
+2018-01-12 16:42:22 - [TEST_STEP][PASSED] - setText: Text '500' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/lengthElement'
+
+2018-01-12 16:42:34 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/lengthElement'
+
+2018-01-12 16:42:34 - [TEST_STEP][PASSED] - setText: Text '400' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/heightElement'
+
+2018-01-12 16:42:45 - [MESSAGE][PASSED] - Text '400' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/heightElement'
+
+2018-01-12 16:42:45 - [TEST_STEP][PASSED] - setText: Text '380' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/widthElement'
+
+2018-01-12 16:42:57 - [MESSAGE][PASSED] - Text '380' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/widthElement'
+
+2018-01-12 16:42:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/materialDesignElement' is clicked on
+
+2018-01-12 16:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/materialDesignElement' is clicked on
+
+2018-01-12 16:42:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:43:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:43:00 - [TEST_STEP][PASSED] - setText: Text '45' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/searchMaterialDesignElement'
+
+2018-01-12 16:43:09 - [MESSAGE][PASSED] - Text '45' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/searchMaterialDesignElement'
+
+2018-01-12 16:43:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-12 16:43:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-12 16:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectMaterilDesignElement' is clicked on
+
+2018-01-12 16:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectMaterilDesignElement' is clicked on
+
+2018-01-12 16:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/gostMaterialDesignElement' is clicked on
+
+2018-01-12 16:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/gostMaterialDesignElement' is clicked on
+
+2018-01-12 16:43:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 16:43:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 16:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectGostMaterialElement' is clicked on
+
+2018-01-12 16:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/selectGostMaterialElement' is clicked on
+
+2018-01-12 16:43:18 - [TEST_STEP][PASSED] - setText: Text '-' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/gostOnElement'
+
+2018-01-12 16:43:30 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/gostOnElement'
+
+2018-01-12 16:43:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addWeldengTextButton' is clicked on
+
+2018-01-12 16:43:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addWeldengTextButton' is clicked on
+
+2018-01-12 16:43:35 - [TEST_STEP][PASSED] - setText: Text 'авто СВ08ГА+ СВ06х25Н12Т10 2246-70' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addWeldingTextarea'
+
+2018-01-12 16:43:38 - [MESSAGE][PASSED] - Text 'авто СВ08ГА+ СВ06х25Н12Т10 2246-70' is set on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addWeldingTextarea'
+
+2018-01-12 16:43:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/okAddWeldingTextareaButton' is clicked on
+
+2018-01-12 16:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/okAddWeldingTextareaButton' is clicked on
+
+2018-01-12 16:43:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextButton' is clicked on
+
+2018-01-12 16:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextButton' is clicked on
+
+2018-01-12 16:43:46 - [TEST_STEP][FAILED] - setText: Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)
+
+2018-01-12 16:44:02 - [MESSAGE][FAILED] - Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)
+[[ATTACHMENT|C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_163939\\1515764642446.png]]
+
+2018-01-12 16:44:02 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Work/Vessel/ElementsVessel/addElements' (Root cause: Call Test Case 'Test Cases/Work/Vessel/ElementsVessel/addElements' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-12 16:40:27 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/4. FillingElementsVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-12 16:39:42 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-12 16:39:42 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to set text '-' of object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addThermalprocessingTextarea' located by 'By.xpath: //textarea[count(. | id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"]) = count(id("popover808118")/div[@class="popover-content"]/div[@class="popover-array"]/textarea[@class="tS6468"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

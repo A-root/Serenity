@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateVessel" time="71" tests="1" failures="1" errors="0">
+   <testsuite name="CreateVessel" tests="1" failures="1" errors="0" time="71" timestamp="2018-01-12 15:57:28" hostname="GDC - TaushevIS" id="Test Suites/CreateVessel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_155726"/>
+         <property name="logFiles" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_155726\\execution0.log"/>
+         <property name="attachments" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_155726\\1515761919290.png"/>
+         <property name="hostName" value="GDC - TaushevIS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.100.10"/>
+         <property name="sessionId" value="2065d07eeb6dec3a8b4a5c0a470a7e82"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Work/Vessel/1. Create New Vessel" classname="Test Cases/Work/Vessel/1. Create New Vessel" status="PASSED">
+         <system-out><![CDATA[2018-01-12 15:57:29 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/1. Create New Vessel: Test Cases/Work/Vessel/1. Create New Vessel
+
+2018-01-12 15:57:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 15:57:30 - [TEST_CASE][PASSED] - Test Cases/Work/Valid login: Test Cases/Work/Valid login
+
+2018-01-12 15:57:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 15:57:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 15:57:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Вход' is present on page 
+
+2018-01-12 15:57:38 - [MESSAGE][PASSED] - Text 'Вход' is present on page 
+
+2018-01-12 15:57:38 - [TEST_STEP][PASSED] - setText: Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 15:57:38 - [MESSAGE][PASSED] - Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 15:57:38 - [TEST_STEP][PASSED] - setText: Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 15:57:38 - [MESSAGE][PASSED] - Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 15:57:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 15:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 15:57:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Главная' is present on page 
+
+2018-01-12 15:57:41 - [MESSAGE][PASSED] - Text 'Главная' is present on page 
+
+2018-01-12 15:57:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 15:57:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 15:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 15:57:43 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 15:57:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 15:57:48 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 15:57:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 15:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 15:57:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 15:57:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 15:57:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 15:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 15:57:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 15:57:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 15:57:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 15:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 15:57:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 15:57:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 15:57:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 15:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 15:57:57 - [TEST_STEP][PASSED] - setText: Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 15:58:03 - [MESSAGE][PASSED] - Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 15:58:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 15:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 15:58:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 15:58:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 15:58:08 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-01-12 15:58:08 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Work/Vessel/4. FillingElementsVessel" classname="Test Cases/Work/Vessel/4. FillingElementsVessel" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span&lt;/value>' not found)"/>
+         <system-out><![CDATA[2018-01-12 15:58:08 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/4. FillingElementsVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)
+
+2018-01-12 15:58:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/ElementsVesselButton' is clicked on
+
+2018-01-12 15:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/ElementsVesselButton' is clicked on
+
+2018-01-12 15:58:18 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 15:58:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 15:58:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 15:58:20 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Work/Vessel/ElementsVessel/addElements' (Root cause: Call Test Case 'Test Cases/Work/Vessel/ElementsVessel/addElements' failed)
+
+2018-01-12 15:58:20 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/ElementsVessel/addElements: Test Cases/Work/Vessel/ElementsVessel/addElements FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)
+
+2018-01-12 15:58:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addElement' is clicked on
+
+2018-01-12 15:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/addElement' is clicked on
+
+2018-01-12 15:58:21 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 15:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 15:58:23 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 15:58:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)
+
+2018-01-12 15:58:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)
+[[ATTACHMENT|C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_155726\\1515761919290.png]]
+
+2018-01-12 15:58:39 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Work/Vessel/ElementsVessel/addElements' (Root cause: Call Test Case 'Test Cases/Work/Vessel/ElementsVessel/addElements' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-12 15:58:08 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/4. FillingElementsVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-12 15:57:28 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-12 15:57:28 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/4. FillingElementsVessel FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/ElementsVessel/AddElement/typeElement' located by 'By.xpath: //select[@name= '6358']/../span</value>' not found)]]></system-err>
+   </testsuite>
+</testsuites>
