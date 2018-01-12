@@ -25,33 +25,33 @@ WebUI.callTestCase(findTestCase('Work/Valid login'), [('StartURL') : 'https://sy
         , ('Pass') : 'tMYPHSIa'], FailureHandling.STOP_ON_FAILURE)
 
 'Переходим с сосуды'
-WebUI.click(findTestObject('GIAP-DC/AddVessel/Vessel'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/AddVessel/Vessel'))
 
 WebUiBuiltInKeywords.waitForJQueryLoad(0)
 
 'Вызываем окно добавления Сосудов'
-WebUI.click(findTestObject('GIAP-DC/AddVessel/Add'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/AddVessel/Add'))
 
-WebUI.verifyElementText(findTestObject('GIAP-DC/AddVessel/h4_'), 'Выбор интерфейса для добавления')
+WebUI.verifyElementText(findTestObject('GIAP-DC/Vessel/AddVessel/h4_'), 'Выбор интерфейса для добавления')
 
 'Выбираем интерфейс "Другие"'
-WebUI.click(findTestObject('GIAP-DC/AddVessel/Other'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/AddVessel/Other'))
 
 WebUiBuiltInKeywords.delay(GlobalVariable.Delay)
 
 'Клик на select'
-WebUI.click(findTestObject('GIAP-DC/AddVessel/Select'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/AddVessel/Select'))
 
 WebUiBuiltInKeywords.delay(GlobalVariable.Delay)
 
 'В выпадающем списке выбираем АВТ-4'
-WebUI.click(findTestObject('GIAP-DC/AddVessel/ABT-4'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/AddVessel/ABT-4'))
 
 'Заполняем позицию из переменной'
-WebUI.setText(findTestObject('GIAP-DC/AddVessel/Position'), GlobalVariable.Position)
+WebUI.setText(findTestObject('GIAP-DC/Vessel/AddVessel/Position'), GlobalVariable.Position)
 
 'Добавляем сосуд'
-WebUI.click(findTestObject('GIAP-DC/AddVessel/AddVessel'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/AddVessel/AddVessel'))
 
 WebUiBuiltInKeywords.delay(GlobalVariable.Delay)
 

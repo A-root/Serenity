@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateVessel" time="487" tests="1" failures="1" errors="0">
+   <testsuite name="CreateVessel" tests="1" failures="1" errors="0" time="487" timestamp="2018-01-12 11:56:51" hostname="GDC - TaushevIS" id="Test Suites/CreateVessel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_115644"/>
+         <property name="logFiles" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_115644\\execution0.log"/>
+         <property name="attachments" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_115644\\1515747897092.png"/>
+         <property name="hostName" value="GDC - TaushevIS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.100.10"/>
+         <property name="sessionId" value="1f8e9176e0b74cf287e1d5082c005110"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Work/Vessel/1. Create New Vessel" classname="Test Cases/Work/Vessel/1. Create New Vessel" status="PASSED">
+         <system-out><![CDATA[2018-01-12 11:56:52 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/1. Create New Vessel: Test Cases/Work/Vessel/1. Create New Vessel
+
+2018-01-12 11:56:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 11:56:53 - [TEST_CASE][PASSED] - Test Cases/Work/Valid login: Test Cases/Work/Valid login
+
+2018-01-12 11:56:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 11:57:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 11:57:06 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Вход' is present on page 
+
+2018-01-12 11:57:06 - [MESSAGE][PASSED] - Text 'Вход' is present on page 
+
+2018-01-12 11:57:06 - [TEST_STEP][PASSED] - setText: Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 11:57:06 - [MESSAGE][PASSED] - Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 11:57:06 - [TEST_STEP][PASSED] - setText: Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 11:57:07 - [MESSAGE][PASSED] - Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 11:57:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 11:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 11:57:10 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Главная' is present on page 
+
+2018-01-12 11:57:11 - [MESSAGE][PASSED] - Text 'Главная' is present on page 
+
+2018-01-12 11:57:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 11:57:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 11:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 11:57:13 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 11:57:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 11:57:19 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 11:57:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 11:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 11:57:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 11:57:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 11:57:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 11:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 11:57:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:57:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:57:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 11:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 11:57:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:57:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:57:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 11:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 11:57:27 - [TEST_STEP][PASSED] - setText: Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 11:57:34 - [MESSAGE][PASSED] - Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 11:57:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 11:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 11:57:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:57:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:57:38 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-01-12 11:57:38 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Work/Vessel/3. FillingOperatingParameters" classname="Test Cases/Work/Vessel/3. FillingOperatingParameters" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;select2 select2-container select2-container--bootstrap&quot; dir=&quot;ltr&quot; style=&quot;width: 100px;&quot;>...&lt;/span> is not clickable at point (203, 139). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;&quot;>&lt;/div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)"/>
+         <system-out><![CDATA[2018-01-12 11:57:38 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/3. FillingOperatingParameters: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)
+
+2018-01-12 11:57:39 - [TEST_STEP][PASSED] - comment: Добавляем объект на вкладку "Текущие пространиства"
+
+2018-01-12 11:57:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/Main' successfully
+
+2018-01-12 11:57:39 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/Main: Test Cases/Work/Vessel/OpParam/Main
+
+2018-01-12 11:57:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/operatingParametersButton' is clicked on
+
+2018-01-12 11:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/operatingParametersButton' is clicked on
+
+2018-01-12 11:57:48 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 11:57:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 11:57:51 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 11:57:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addMain' is clicked on
+
+2018-01-12 11:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addMain' is clicked on
+
+2018-01-12 11:57:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:57:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:57:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/actualSpaceMain' is clicked on
+
+2018-01-12 11:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/actualSpaceMain' is clicked on
+
+2018-01-12 11:57:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:57:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:57:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/selectActualSpace' is clicked on
+
+2018-01-12 11:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/selectActualSpace' is clicked on
+
+2018-01-12 11:57:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addButton' is clicked on
+
+2018-01-12 11:58:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addButton' is clicked on
+
+2018-01-12 11:58:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/Main' successfully
+
+2018-01-12 11:58:04 - [TEST_STEP][PASSED] - comment: Добавляем данные на вкладку "История параметров"
+
+2018-01-12 11:58:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/History' successfully
+
+2018-01-12 11:58:04 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/History: Test Cases/Work/Vessel/OpParam/History
+
+2018-01-12 11:58:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:58:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:58:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/historyButton' is clicked on
+
+2018-01-12 11:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/historyButton' is clicked on
+
+2018-01-12 11:58:12 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 11:58:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 11:58:14 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 11:58:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addHistory' is clicked on
+
+2018-01-12 11:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addHistory' is clicked on
+
+2018-01-12 11:58:14 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 11:58:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 11:58:15 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 11:58:15 - [TEST_STEP][PASSED] - setText: Text '25.05.2014' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/DateHistory'
+
+2018-01-12 11:58:30 - [MESSAGE][PASSED] - Text '25.05.2014' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/DateHistory'
+
+2018-01-12 11:58:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/sourceHistory' is clicked on
+
+2018-01-12 11:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/sourceHistory' is clicked on
+
+2018-01-12 11:58:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:58:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:58:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectDataSource' is clicked on
+
+2018-01-12 11:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectDataSource' is clicked on
+
+2018-01-12 11:58:34 - [TEST_STEP][PASSED] - setText: Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/enviromentFromSource'
+
+2018-01-12 11:58:48 - [MESSAGE][PASSED] - Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/enviromentFromSource'
+
+2018-01-12 11:58:48 - [TEST_STEP][PASSED] - setText: Text 'корпус' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/spaceFromSource'
+
+2018-01-12 11:59:03 - [MESSAGE][PASSED] - Text 'корпус' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/spaceFromSource'
+
+2018-01-12 11:59:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/valueHistory' is clicked on
+
+2018-01-12 11:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/valueHistory' is clicked on
+
+2018-01-12 11:59:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 11:59:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 11:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectValue' is clicked on
+
+2018-01-12 11:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectValue' is clicked on
+
+2018-01-12 11:59:06 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-01-12 11:59:06 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-01-12 11:59:06 - [TEST_STEP][PASSED] - setText: Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPin'
+
+2018-01-12 11:59:19 - [MESSAGE][PASSED] - Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPin'
+
+2018-01-12 11:59:19 - [TEST_STEP][PASSED] - setText: Text '0,05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPout'
+
+2018-01-12 11:59:32 - [MESSAGE][PASSED] - Text '0,05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPout'
+
+2018-01-12 11:59:32 - [TEST_STEP][PASSED] - setText: Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedP'
+
+2018-01-12 11:59:45 - [MESSAGE][PASSED] - Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedP'
+
+2018-01-12 11:59:45 - [TEST_STEP][PASSED] - setText: Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedP'
+
+2018-01-12 11:59:58 - [MESSAGE][PASSED] - Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedP'
+
+2018-01-12 11:59:58 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTin'
+
+2018-01-12 12:00:11 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTin'
+
+2018-01-12 12:00:11 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTout'
+
+2018-01-12 12:00:24 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTout'
+
+2018-01-12 12:00:24 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedT'
+
+2018-01-12 12:00:36 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedT'
+
+2018-01-12 12:00:36 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedT'
+
+2018-01-12 12:00:49 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedT'
+
+2018-01-12 12:00:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addButton (1)' is clicked on
+
+2018-01-12 12:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addButton (1)' is clicked on
+
+2018-01-12 12:00:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/History' successfully
+
+2018-01-12 12:00:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/History_2' successfully
+
+2018-01-12 12:00:56 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/History_2: Test Cases/Work/Vessel/OpParam/History_2
+
+2018-01-12 12:00:56 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-01-12 12:00:56 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-01-12 12:00:56 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-01-12 12:00:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-01-12 12:00:56 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 12:00:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 12:00:59 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 12:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addHistory' is clicked on
+
+2018-01-12 12:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addHistory' is clicked on
+
+2018-01-12 12:01:00 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 12:01:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 12:01:00 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 12:01:00 - [TEST_STEP][PASSED] - setText: Text '25.05.2015' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/DateHistory'
+
+2018-01-12 12:01:15 - [MESSAGE][PASSED] - Text '25.05.2015' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/DateHistory'
+
+2018-01-12 12:01:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/sourceHistory' is clicked on
+
+2018-01-12 12:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/sourceHistory' is clicked on
+
+2018-01-12 12:01:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:01:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:01:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectDataSource' is clicked on
+
+2018-01-12 12:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectDataSource' is clicked on
+
+2018-01-12 12:01:18 - [TEST_STEP][PASSED] - setText: Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/enviromentFromSource'
+
+2018-01-12 12:01:32 - [MESSAGE][PASSED] - Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/enviromentFromSource'
+
+2018-01-12 12:01:32 - [TEST_STEP][PASSED] - setText: Text 'корпус' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/spaceFromSource'
+
+2018-01-12 12:01:45 - [MESSAGE][PASSED] - Text 'корпус' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/spaceFromSource'
+
+2018-01-12 12:01:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/valueHistory' is clicked on
+
+2018-01-12 12:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/valueHistory' is clicked on
+
+2018-01-12 12:01:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:01:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:01:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectValue' is clicked on
+
+2018-01-12 12:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectValue' is clicked on
+
+2018-01-12 12:01:49 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-01-12 12:01:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-01-12 12:01:49 - [TEST_STEP][PASSED] - setText: Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPin'
+
+2018-01-12 12:02:02 - [MESSAGE][PASSED] - Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPin'
+
+2018-01-12 12:02:02 - [TEST_STEP][PASSED] - setText: Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPout'
+
+2018-01-12 12:02:15 - [MESSAGE][PASSED] - Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPout'
+
+2018-01-12 12:02:15 - [TEST_STEP][PASSED] - setText: Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedP'
+
+2018-01-12 12:02:28 - [MESSAGE][PASSED] - Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedP'
+
+2018-01-12 12:02:28 - [TEST_STEP][PASSED] - setText: Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedP'
+
+2018-01-12 12:02:40 - [MESSAGE][PASSED] - Text '0.15' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedP'
+
+2018-01-12 12:02:40 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTin'
+
+2018-01-12 12:02:53 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTin'
+
+2018-01-12 12:02:53 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTout'
+
+2018-01-12 12:03:06 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTout'
+
+2018-01-12 12:03:06 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedT'
+
+2018-01-12 12:03:19 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedT'
+
+2018-01-12 12:03:19 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedT'
+
+2018-01-12 12:03:33 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedT'
+
+2018-01-12 12:03:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addButton (1)' is clicked on
+
+2018-01-12 12:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addButton (1)' is clicked on
+
+2018-01-12 12:03:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/History_2' successfully
+
+2018-01-12 12:03:39 - [TEST_STEP][PASSED] - comment: Заносим данные на вкладку "Технологические среды"
+
+2018-01-12 12:03:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/Envir' successfully
+
+2018-01-12 12:03:39 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/Envir: Test Cases/Work/Vessel/OpParam/Envir
+
+2018-01-12 12:03:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/EnviromentButton' is clicked on
+
+2018-01-12 12:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/EnviromentButton' is clicked on
+
+2018-01-12 12:03:46 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 12:03:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 12:03:47 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 12:03:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviroment' is clicked on
+
+2018-01-12 12:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviroment' is clicked on
+
+2018-01-12 12:03:48 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 12:03:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 12:03:49 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 12:03:49 - [TEST_STEP][PASSED] - setText: Text '25/01/2011' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dateEnviroment'
+
+2018-01-12 12:04:02 - [MESSAGE][PASSED] - Text '25/01/2011' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dateEnviroment'
+
+2018-01-12 12:04:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/sourceEnviroment' is clicked on
+
+2018-01-12 12:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/sourceEnviroment' is clicked on
+
+2018-01-12 12:04:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:04:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectSourceEnviroment' is clicked on
+
+2018-01-12 12:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectSourceEnviroment' is clicked on
+
+2018-01-12 12:04:06 - [TEST_STEP][PASSED] - setText: Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/nameEnviroment'
+
+2018-01-12 12:04:18 - [MESSAGE][PASSED] - Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/nameEnviroment'
+
+2018-01-12 12:04:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dangerClassEnviroment' is clicked on
+
+2018-01-12 12:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dangerClassEnviroment' is clicked on
+
+2018-01-12 12:04:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:04:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:04:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectDangerClassEnviroment' is clicked on
+
+2018-01-12 12:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectDangerClassEnviroment' is clicked on
+
+2018-01-12 12:04:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/explosiveEnviroment' is clicked on
+
+2018-01-12 12:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/explosiveEnviroment' is clicked on
+
+2018-01-12 12:04:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:04:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:04:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectExplosiveEnviroment' is clicked on
+
+2018-01-12 12:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectExplosiveEnviroment' is clicked on
+
+2018-01-12 12:04:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addSpaceEnviromentButton' is clicked on
+
+2018-01-12 12:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addSpaceEnviromentButton' is clicked on
+
+2018-01-12 12:04:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/openSelectSpaceEnviroment' is clicked on
+
+2018-01-12 12:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/openSelectSpaceEnviroment' is clicked on
+
+2018-01-12 12:04:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:04:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectSpaceEnviroment' is clicked on
+
+2018-01-12 12:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectSpaceEnviroment' is clicked on
+
+2018-01-12 12:04:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/OkSelectSpaceEnviroment' is clicked on
+
+2018-01-12 12:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/OkSelectSpaceEnviroment' is clicked on
+
+2018-01-12 12:04:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviromentButton' is clicked on
+
+2018-01-12 12:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviromentButton' is clicked on
+
+2018-01-12 12:04:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/Envir' successfully
+
+2018-01-12 12:04:47 - [TEST_STEP][PASSED] - comment: Заносим данные на вкладку "Режим эксплуатации"
+
+2018-01-12 12:04:47 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Work/Vessel/OpParam/Regime' (Root cause: Call Test Case 'Test Cases/Work/Vessel/OpParam/Regime' failed)
+
+2018-01-12 12:04:47 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/OpParam/Regime: Test Cases/Work/Vessel/OpParam/Regime FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)
+
+2018-01-12 12:04:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 12:04:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 12:04:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regimeButton' is clicked on
+
+2018-01-12 12:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regimeButton' is clicked on
+
+2018-01-12 12:04:54 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 12:04:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 12:04:55 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 12:04:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' is clicked on
+
+2018-01-12 12:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' is clicked on
+
+2018-01-12 12:04:55 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 12:04:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 12:04:56 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 12:04:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)
+
+2018-01-12 12:04:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)
+[[ATTACHMENT|C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_115644\\1515747897092.png]]
+
+2018-01-12 12:04:57 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Work/Vessel/OpParam/Regime' (Root cause: Call Test Case 'Test Cases/Work/Vessel/OpParam/Regime' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-12 11:57:38 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/3. FillingOperatingParameters: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-12 11:56:51 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)]]></system-out>
+      <system-err><![CDATA[2018-01-12 11:56:51 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regima' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="select2 select2-container select2-container--bootstrap" dir="ltr" style="width: 100px;">...</span> is not clickable at point (203, 139). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0; cursor: default; position: fixed;"></div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TAUSHEVIS', ip: '192.168.100.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\GDC\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 1f8e9176e0b74cf287e1d5082c005110)]]></system-err>
+   </testsuite>
+</testsuites>

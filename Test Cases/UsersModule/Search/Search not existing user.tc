@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Search not existing user</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6d6e1cf6-4af4-4373-bcb7-2fc6fac4309d</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>calculatedP</name>
+   <tag></tag>
+   <elementGuidId>b59bf384-0341-48d0-9dd1-923d2db3b506</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>6973</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control numeri   </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Введите число</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m-m-i741910-ADD&quot;)/div[@class=&quot;jsPanel-content&quot;]/form[@id=&quot;SubmitForm&quot;]/div[@class=&quot;form-inline ui-modal-grid-1 split split-horizontal&quot;]/div[@class=&quot;m-m_el_co_cloth&quot;]/div[@class=&quot;m-m-el-cloth-param&quot;]/fieldset[1]/div[@class=&quot;form-group input-large&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control numeri&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

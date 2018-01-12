@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateVessel" time="381" tests="1" failures="1" errors="0">
+   <testsuite name="CreateVessel" tests="1" failures="1" errors="0" time="381" timestamp="2018-01-12 10:25:10" hostname="GDC - TaushevIS" id="Test Suites/CreateVessel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_102458"/>
+         <property name="logFiles" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_102458\\execution0.log"/>
+         <property name="attachments" value="C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_102458\\1515742290341.png"/>
+         <property name="hostName" value="GDC - TaushevIS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.100.10"/>
+         <property name="sessionId" value="12b7a6b659d8e24ac64a6d55d96788b3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Work/Vessel/1. Create New Vessel" classname="Test Cases/Work/Vessel/1. Create New Vessel" status="PASSED">
+         <system-out><![CDATA[2018-01-12 10:25:12 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/1. Create New Vessel: Test Cases/Work/Vessel/1. Create New Vessel
+
+2018-01-12 10:25:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 10:25:13 - [TEST_CASE][PASSED] - Test Cases/Work/Valid login: Test Cases/Work/Valid login
+
+2018-01-12 10:25:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 10:25:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://system.misnik.by:8484/index.php'
+
+2018-01-12 10:25:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Вход' is present on page 
+
+2018-01-12 10:25:41 - [MESSAGE][PASSED] - Text 'Вход' is present on page 
+
+2018-01-12 10:25:41 - [TEST_STEP][PASSED] - setText: Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 10:25:42 - [MESSAGE][PASSED] - Text 'TaushevIS' is set on object 'Object Repository/GIAP-DC/loginPage/input_username'
+
+2018-01-12 10:25:42 - [TEST_STEP][PASSED] - setText: Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 10:25:42 - [MESSAGE][PASSED] - Text 'tMYPHSIa' is set on object 'Object Repository/GIAP-DC/loginPage/input_password'
+
+2018-01-12 10:25:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 10:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/loginPage/loginButton' is clicked on
+
+2018-01-12 10:25:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Главная' is present on page 
+
+2018-01-12 10:25:45 - [MESSAGE][PASSED] - Text 'Главная' is present on page 
+
+2018-01-12 10:25:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Valid login' successfully
+
+2018-01-12 10:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 10:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Vessel' is clicked on
+
+2018-01-12 10:25:48 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:25:53 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 10:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Add' is clicked on
+
+2018-01-12 10:25:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 10:25:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GIAP-DC/Vessel/AddVessel/h4_' are matched.
+
+2018-01-12 10:25:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 10:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Other' is clicked on
+
+2018-01-12 10:25:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:25:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:25:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 10:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/Select' is clicked on
+
+2018-01-12 10:25:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:26:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:26:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 10:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/ABT-4' is clicked on
+
+2018-01-12 10:26:02 - [TEST_STEP][PASSED] - setText: Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 10:26:10 - [MESSAGE][PASSED] - Text 'test100' is set on object 'Object Repository/GIAP-DC/Vessel/AddVessel/Position'
+
+2018-01-12 10:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 10:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/AddVessel/AddVessel' is clicked on
+
+2018-01-12 10:26:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:26:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:26:15 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-01-12 10:26:15 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Work/Vessel/3. FillingOperatingParameters" classname="Test Cases/Work/Vessel/3. FillingOperatingParameters" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)"/>
+         <system-out><![CDATA[2018-01-12 10:26:15 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/3. FillingOperatingParameters: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)
+
+2018-01-12 10:26:15 - [TEST_STEP][PASSED] - comment: Добавляем объект на вкладку "Текущие пространиства"
+
+2018-01-12 10:26:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/Main' successfully
+
+2018-01-12 10:26:15 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/Main: Test Cases/Work/Vessel/OpParam/Main
+
+2018-01-12 10:26:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/operatingParametersButton' is clicked on
+
+2018-01-12 10:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/operatingParametersButton' is clicked on
+
+2018-01-12 10:26:27 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:26:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:26:30 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:26:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addMain' is clicked on
+
+2018-01-12 10:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addMain' is clicked on
+
+2018-01-12 10:26:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:26:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:26:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/actualSpaceMain' is clicked on
+
+2018-01-12 10:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/actualSpaceMain' is clicked on
+
+2018-01-12 10:26:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:26:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:26:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/selectActualSpace' is clicked on
+
+2018-01-12 10:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/selectActualSpace' is clicked on
+
+2018-01-12 10:26:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addButton' is clicked on
+
+2018-01-12 10:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Main/addButton' is clicked on
+
+2018-01-12 10:26:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/Main' successfully
+
+2018-01-12 10:26:44 - [TEST_STEP][PASSED] - comment: Добавляем данные на вкладку "История параметров"
+
+2018-01-12 10:26:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/History' successfully
+
+2018-01-12 10:26:44 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/History: Test Cases/Work/Vessel/OpParam/History
+
+2018-01-12 10:26:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:26:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:26:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/historyButton' is clicked on
+
+2018-01-12 10:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/historyButton' is clicked on
+
+2018-01-12 10:26:51 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:26:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:26:52 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:26:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addHistory' is clicked on
+
+2018-01-12 10:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addHistory' is clicked on
+
+2018-01-12 10:26:53 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:26:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:26:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:26:54 - [TEST_STEP][PASSED] - setText: Text '25.05.2014' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/DateHistory'
+
+2018-01-12 10:27:10 - [MESSAGE][PASSED] - Text '25.05.2014' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/DateHistory'
+
+2018-01-12 10:27:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/sourceHistory' is clicked on
+
+2018-01-12 10:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/sourceHistory' is clicked on
+
+2018-01-12 10:27:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:27:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:27:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectDataSource' is clicked on
+
+2018-01-12 10:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectDataSource' is clicked on
+
+2018-01-12 10:27:14 - [TEST_STEP][PASSED] - setText: Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/enviromentFromSource'
+
+2018-01-12 10:27:30 - [MESSAGE][PASSED] - Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/enviromentFromSource'
+
+2018-01-12 10:27:30 - [TEST_STEP][PASSED] - setText: Text 'корпус' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/spaceFromSource'
+
+2018-01-12 10:27:46 - [MESSAGE][PASSED] - Text 'корпус' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/spaceFromSource'
+
+2018-01-12 10:27:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/valueHistory' is clicked on
+
+2018-01-12 10:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/valueHistory' is clicked on
+
+2018-01-12 10:27:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:27:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:27:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectValue' is clicked on
+
+2018-01-12 10:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/selectValue' is clicked on
+
+2018-01-12 10:27:49 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-01-12 10:27:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-01-12 10:27:49 - [TEST_STEP][PASSED] - setText: Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPin'
+
+2018-01-12 10:28:05 - [MESSAGE][PASSED] - Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPin'
+
+2018-01-12 10:28:05 - [TEST_STEP][PASSED] - setText: Text '0,05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPout'
+
+2018-01-12 10:28:20 - [MESSAGE][PASSED] - Text '0,05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workPout'
+
+2018-01-12 10:28:20 - [TEST_STEP][PASSED] - setText: Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedP'
+
+2018-01-12 10:28:35 - [MESSAGE][PASSED] - Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedP'
+
+2018-01-12 10:28:35 - [TEST_STEP][PASSED] - setText: Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedP'
+
+2018-01-12 10:28:51 - [MESSAGE][PASSED] - Text '0.05' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedP'
+
+2018-01-12 10:28:51 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTin'
+
+2018-01-12 10:29:06 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTin'
+
+2018-01-12 10:29:06 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTout'
+
+2018-01-12 10:29:22 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/workTout'
+
+2018-01-12 10:29:22 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedT'
+
+2018-01-12 10:29:37 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/allowedT'
+
+2018-01-12 10:29:37 - [TEST_STEP][PASSED] - setText: Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedT'
+
+2018-01-12 10:29:52 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/calculatedT'
+
+2018-01-12 10:29:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addButton (1)' is clicked on
+
+2018-01-12 10:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/History/addButton (1)' is clicked on
+
+2018-01-12 10:29:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/History' successfully
+
+2018-01-12 10:29:59 - [TEST_STEP][PASSED] - comment: Заносим данные на вкладку "Технологические среды"
+
+2018-01-12 10:29:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Work/Vessel/OpParam/Envir' successfully
+
+2018-01-12 10:29:59 - [TEST_CASE][PASSED] - Test Cases/Work/Vessel/OpParam/Envir: Test Cases/Work/Vessel/OpParam/Envir
+
+2018-01-12 10:30:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:30:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:30:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/EnviromentButton' is clicked on
+
+2018-01-12 10:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/EnviromentButton' is clicked on
+
+2018-01-12 10:30:07 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:30:09 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviroment' is clicked on
+
+2018-01-12 10:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviroment' is clicked on
+
+2018-01-12 10:30:09 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:30:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:30:11 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:30:11 - [TEST_STEP][PASSED] - setText: Text '25/01/2011' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dateEnviroment'
+
+2018-01-12 10:30:26 - [MESSAGE][PASSED] - Text '25/01/2011' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dateEnviroment'
+
+2018-01-12 10:30:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/sourceEnviroment' is clicked on
+
+2018-01-12 10:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/sourceEnviroment' is clicked on
+
+2018-01-12 10:30:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:30:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:30:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectSourceEnviroment' is clicked on
+
+2018-01-12 10:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectSourceEnviroment' is clicked on
+
+2018-01-12 10:30:30 - [TEST_STEP][PASSED] - setText: Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/nameEnviroment'
+
+2018-01-12 10:30:44 - [MESSAGE][PASSED] - Text 'нефтепродукты' is set on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/nameEnviroment'
+
+2018-01-12 10:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dangerClassEnviroment' is clicked on
+
+2018-01-12 10:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/dangerClassEnviroment' is clicked on
+
+2018-01-12 10:30:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:30:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:30:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectDangerClassEnviroment' is clicked on
+
+2018-01-12 10:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectDangerClassEnviroment' is clicked on
+
+2018-01-12 10:30:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/explosiveEnviroment' is clicked on
+
+2018-01-12 10:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/explosiveEnviroment' is clicked on
+
+2018-01-12 10:30:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:30:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:30:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectExplosiveEnviroment' is clicked on
+
+2018-01-12 10:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/selectExplosiveEnviroment' is clicked on
+
+2018-01-12 10:30:50 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-01-12 10:30:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-01-12 10:30:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviromentButton' is clicked on
+
+2018-01-12 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Environment/addEnviromentButton' is clicked on
+
+2018-01-12 10:30:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work/Vessel/OpParam/Envir' successfully
+
+2018-01-12 10:30:58 - [TEST_STEP][PASSED] - comment: Заносим данные на вкладку "Режим эксплуатации"
+
+2018-01-12 10:30:58 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Work/Vessel/OpParam/Regime' (Root cause: Call Test Case 'Test Cases/Work/Vessel/OpParam/Regime' failed)
+
+2018-01-12 10:30:58 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/OpParam/Regime: Test Cases/Work/Vessel/OpParam/Regime FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)
+
+2018-01-12 10:30:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-01-12 10:31:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-01-12 10:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regimeButton' is clicked on
+
+2018-01-12 10:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/regimeButton' is clicked on
+
+2018-01-12 10:31:05 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-01-12 10:31:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-01-12 10:31:06 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-01-12 10:31:06 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)
+
+2018-01-12 10:31:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)
+[[ATTACHMENT|C:\\TestProject\\glowing-giggle\\Reports\\CreateVessel\\20180112_102458\\1515742290341.png]]
+
+2018-01-12 10:31:31 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Work/Vessel/OpParam/Regime' (Root cause: Call Test Case 'Test Cases/Work/Vessel/OpParam/Regime' failed)]]></system-out>
+         <system-err><![CDATA[2018-01-12 10:26:15 - [TEST_CASE][FAILED] - Test Cases/Work/Vessel/3. FillingOperatingParameters: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-12 10:25:10 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-12 10:25:10 - [TEST_SUITE][FAILED] - CreateVessel: Test Cases/Work/Vessel/3. FillingOperatingParameters FAILED because (of) Unable to click on object 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GIAP-DC/Vessel/Operating Parameters/Regime/addRegime' located by 'By.xpath: //a[count(. | //*[@href = 'javascript:;']) = count(//*[@href = 'javascript:;'])][count(. | //*[@title = 'Добавить']) = count(//*[@title = 'Добавить'])][count(. | //*[text() = '  Добавить ']) = count(//*[text() = '  Добавить '])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

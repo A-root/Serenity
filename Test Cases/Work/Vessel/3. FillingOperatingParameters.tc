@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3. FillingOperatingParameters</name>
+   <tag></tag>
+   <comment>Добавляем объект на вкладку &quot;Текущие пространиства&quot;
+Добавляем данные на вкладку &quot;История параметров&quot;
+Заносим данные на вкладку &quot;Технологические среды&quot;
+Заносим данные на вкладку &quot;Режим эксплуатации&quot;</comment>
+   <testCaseGuid>fa27539f-2314-4c49-8222-4fe654bb5ff6</testCaseGuid>
+</TestCaseEntity>

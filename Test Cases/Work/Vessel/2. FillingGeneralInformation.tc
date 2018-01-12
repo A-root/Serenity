@@ -3,6 +3,8 @@
    <description></description>
    <name>2. FillingGeneralInformation</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Заполняем группу параметров &quot;Основное&quot;
+Заходим в блок регистрации сосуда
+Закончили с регистрацией, заполняем блок &quot;Технические характеристики&quot;</comment>
    <testCaseGuid>29a24f97-e5d0-49d0-bed1-1657b8d58ef5</testCaseGuid>
 </TestCaseEntity>

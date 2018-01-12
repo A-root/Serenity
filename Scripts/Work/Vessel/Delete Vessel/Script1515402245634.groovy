@@ -25,37 +25,37 @@ WebUI.callTestCase(findTestCase('Work/Valid login'), [('StartURL') : 'https://sy
         , ('Pass') : 'tMYPHSIa'], FailureHandling.STOP_ON_FAILURE)
 
 'Заходим в Сосуды'
-WebUI.click(findTestObject('GIAP-DC/deleteVessel/Page_  GIAP-DC/VesselBlock'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_  GIAP-DC/VesselBlock'))
 
 WebUiBuiltInKeywords.waitForJQueryLoad(0)
 
 'Выполняем поиск сосуда'
-WebUI.click(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/Search'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/Search'))
 
 'В поиск подставляем переменную'
-WebUI.setText(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/Search'), GlobalVariable.Position)
+WebUI.setText(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/Search'), GlobalVariable.Position)
 
-WebUI.sendKeys(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/Search'), Keys.chord(Keys.ENTER))
 
 WebUiBuiltInKeywords.waitForJQueryLoad(0)
 
 WebUiBuiltInKeywords.delay(2)
 
 'Кликаем на строку с содержимым "test10"'
-WebUI.click(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/Vessel_Test10'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/Vessel_Test10'))
 
 'Кликаем на кнопку "Удалить"'
-WebUI.click(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/deleteButton'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/deleteButton'))
 
 WebUiBuiltInKeywords.delay(2)
 
 'Подтверждаем удаление'
-WebUI.click(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/confirmDeleteButton'))
+WebUI.click(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/confirmDeleteButton'))
 
 WebUiBuiltInKeywords.waitForJQueryLoad(0)
 
 'Проверяем наличие всплывающей подсказки'
-WebUI.verifyElementPresent(findTestObject('GIAP-DC/deleteVessel/Page_    GIAP-DC/successDeletemessage'), 0)
+WebUI.verifyElementPresent(findTestObject('GIAP-DC/Vessel/deleteVessel/Page_    GIAP-DC/successDeletemessage'), 0)
 
 'Закрываем браузер'
 WebUI.closeBrowser()
